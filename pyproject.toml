@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ia-ham10000"
+version = "0.1.0"
+description = "Trabalho de I.A. para treinamento com base no dataset HAM10000"
+authors = [
+    "Yuri Nogueira <personal@yurinogueira.dev.br>",
+    "João Gonçalves <jvlgoncalves@id.uff.br>",
+    "Felipe Salles <sallesfelipe@id.uff.br>",
+    "Paulo Felipe <pfelipe@id.uff.br>"
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.3.0"
+scikit-learn = "^1.4.2"
+notebook = "^7.2.0"
+pandas = "^2.2.2"
+matplotlib = "^3.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
